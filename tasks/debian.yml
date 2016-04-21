@@ -8,7 +8,7 @@
   apt: name=apt-transport-https update_cache=yes state=latest install_recommends=no
 
 - name: Install Elasticsearch repo
-  apt_repository: repo='deb http://packages.elastic.co/elasticsearch/5.x/debian stable main' state=present
+  apt_repository: repo="deb http://packages.elastic.co/elasticsearch/5.x/debian stable main" state=present
 
 - name: Install Elasticsearch package
   apt: name=elasticsearch update_cache=yes state=latest install_recommends=no

@@ -1,0 +1,31 @@
+galaxy_info:
+  author: J. Matt Peterson
+  description: Elasticsearch v 5.0 for LSST SQuaRE.
+  company: LSST SQuaRE
+  issue_tracker_url: https://github.com/lsst-sqre/ansible-elasticsearch-packages/issues
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+      - 7
+  - name: Ubuntu
+    versions:
+      - trusty
+      - xenial
+  #- name: Debian
+  #  versions:
+  #  - all
+  #  - etch
+  #  - jessie
+  #  - lenny
+  #  - squeeze
+  #  - wheezy
+  galaxy_tags:
+    - centos
+    - elasticsearch
+    - elastic
+    - system
+    - ubuntu
+dependencies:
+  - role: jmatt.java-packages
